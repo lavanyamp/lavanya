@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Script.VerifyErrorSignIn"/>
+      <class name="Script.VerifyEmptyCart"/>
+      <class name="Script.VerifyPageNumWithNext"/>
+      <class name="Script.VerifySignIn"/>
+      <class name="Script.CompareQuickProduct"/>
+      <class name="Script.CompanylogoCorrectPage"/>
+      <class name="Script.SigninWishlistEdit"/>
+      <class name="Script.PoliciesInfoVerify"/>
+      <class name="Script.AddRemoveProductCart"/>
+      <class name="Script.CraftsTCVillaBrandsOptions"/>
+      <class name="Script.ProductSelectNavigateMainFeature"/>
+      <class name="Script.VerifyContactUs"/>
+      <class name="Script.SameProductAddedToCart"/>
+      <class name="Script.SareepropageLTH"/>
+      <class name="Script.CraftsVillaSareeNavigation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

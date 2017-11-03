@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[Sort By:]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[Price : Low to High]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[Price : High to Low]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[Discount]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[₹ 210]]>
+    </line>
+    <line>
+      <![CDATA[Element Present]]>
+    </line>
+    <line>
+      <![CDATA[₹ 359]]>
+    </line>
+    <line>
+      <![CDATA[Product displayed from low to high]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39037" started-at="2017-11-03T05:59:32Z" finished-at="2017-11-03T06:00:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39037" started-at="2017-11-03T05:59:32Z" finished-at="2017-11-03T06:00:11Z">
+      <class name="Script.SareepropageLTH">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:Script.SareepropageLTH@3fee9989]" name="openapp" is-config="true" duration-ms="10929" started-at="2017-11-03T11:29:32Z" finished-at="2017-11-03T11:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="testSareepropageLTH()[pri:0, instance:Script.SareepropageLTH@3fee9989]" name="testSareepropageLTH" duration-ms="17700" started-at="2017-11-03T11:29:43Z" finished-at="2017-11-03T11:30:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[Sort By:]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[Price : Low to High]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[Price : High to Low]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[Discount]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[₹ 210]]>
+            </line>
+            <line>
+              <![CDATA[Element Present]]>
+            </line>
+            <line>
+              <![CDATA[₹ 359]]>
+            </line>
+            <line>
+              <![CDATA[Product displayed from low to high]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSareepropageLTH -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:Script.SareepropageLTH@3fee9989]" name="closeapp" is-config="true" duration-ms="10391" started-at="2017-11-03T11:30:01Z" finished-at="2017-11-03T11:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- Script.SareepropageLTH -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
