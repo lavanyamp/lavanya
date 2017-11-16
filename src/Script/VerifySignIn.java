@@ -1,12 +1,13 @@
 package Script;
 
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
 import Pom.CraftsvillaHomePage;
 import Pom.SigninPage;
-
+@Listeners(Generic.itest.class)
 public class VerifySignIn extends BaseTest{
 	@Test
 	public void testVerifySignIn ()

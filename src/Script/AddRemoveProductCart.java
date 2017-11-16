@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
@@ -11,11 +12,12 @@ import Generic.Ecxeldata;
 import Pom.CartPage;
 import Pom.CraftsvillaHomePage;
 import Pom.CraftsvillaProductPage;
-
+@Listeners(Generic.itest.class)
 public class AddRemoveProductCart extends BaseTest {
 	@Test
 	public void testAddRemoveProductCart() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException
 	{
+        test=extent.startTest("testAddRemoveProductCart");
 		String s=Ecxeldata.retrievedata(PATH,"crsftsvillaModule",13,0);
 		String u=Ecxeldata.retrievedata(PATH,"crsftsvillaModule",3,0);
 		CraftsvillaHomePage v=new CraftsvillaHomePage(driver);

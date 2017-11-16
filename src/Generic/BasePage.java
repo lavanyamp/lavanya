@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 
 
 public class BasePage {
@@ -42,11 +44,13 @@ public class BasePage {
 			WebDriverWait wait=new WebDriverWait(driver,10);
 			try{
 				wait.until(ExpectedConditions.urlContains(s));
-				Reporter.log("You are in correct page",true);
+				//Reporter.log("You are in correct page",true);
+				BaseTest.test.log(LogStatus.PASS, "You are in correct page");
 			}
 			catch(Exception e)
 			{
-				Reporter.log("You are in wrong page");
+				//Reporter.log("You are in wrong page");
+				BaseTest.test.log(LogStatus.FAIL, "You are in correct page");
 	            Assert.fail();		
 			}
 		}

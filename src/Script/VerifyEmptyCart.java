@@ -5,13 +5,14 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
 import Generic.Ecxeldata;
 import Pom.CartPage;
 import Pom.CraftsvillaHomePage;
-
+@Listeners(Generic.itest.class)
 public class VerifyEmptyCart extends BaseTest{
 	@Test
 	public void testVerifyEmptyCart() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException

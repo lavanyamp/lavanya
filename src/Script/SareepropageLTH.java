@@ -1,11 +1,12 @@
 package Script;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
 import Pom.CraftsvillaHomePage;
 import Pom.SareeProductPage;
-
+@Listeners(Generic.itest.class)
 public class SareepropageLTH extends BaseTest{
 	@Test
 	public void testSareepropageLTH() throws InterruptedException 

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="firefoxtest(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Script.SameProductAddedToCart">
+      <class name="Script.VerifyErrorSignIn">
         <methods>
+          <include name="reportclose"/>
           <include name="openapp"/>
-          <include name="testSameProductAddedToCart"/>
+          <include name="testVerifyErrorSignIn"/>
           <include name="closeapp"/>
+          <include name="report"/>
         </methods>
-      </class> <!-- Script.SameProductAddedToCart -->
+      </class> <!-- Script.VerifyErrorSignIn -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

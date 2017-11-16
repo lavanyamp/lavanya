@@ -4,13 +4,14 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
 import Generic.Ecxeldata;
 import Pom.AccesoriesproductPage;
 import Pom.CraftsvillaHomePage;
-
+@Listeners(Generic.itest.class)
 public class ProductSelectNavigateMainFeature extends BaseTest{
 	@Test
 	public void accessoriestest() throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException

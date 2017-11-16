@@ -1,10 +1,11 @@
 package Script;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generic.BaseTest;
 import Pom.CraftsvillaHomePage;
-
+@Listeners(Generic.itest.class)
 public class VcraftsTCVillaBrandsOptions extends BaseTest {	
 	@Test
 	public void testCraftsTCVillaBrandsOptions() throws InterruptedException
